@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=768
+
+This script provides syntax highlighting for the (rather obscure) MIS programming language.
+
+It assumes the following conventions:
+
+* names of pointers to address locations end in "_@".. Ex. mypointer_@
+* names of pointers to pointers end in "_@@".. Ex. mypointer_@@
+
+If these conventions are followed, the syntax will be highlighted accordingly. 
